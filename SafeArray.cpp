@@ -27,7 +27,7 @@ istream& operator>>(istream &in,SafeArray &a)
 {
     int value;
     for(int i=0;i<a.size;i++){
-        cin>>value;
+        in>>value;
         a.number[i] = value;
     }
     return in;
